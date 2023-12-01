@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: url('https://source.unsplash.com/1600x900/?landscape') center/cover no-repeat;
+  }
+  
+  .header {
+    background-color: none;
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .infographic {
+    background-color: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .infographic h1 {
+    margin-top: 0;
+  }
+  
+  .infographic p {
+    margin: 10px 0;
+  }
+  
+  .infographic button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color:none;
+    color: rgb(14, 13, 13);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section {
+    display: none;
+  }
+  
+  .section.active {
+    display: block;
+  }
+  
